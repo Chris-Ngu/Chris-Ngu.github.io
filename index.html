@@ -1,116 +1,124 @@
-<!--
-    Fix project tiles, Tiles aren't the same size
-    Add one sentence description of each project
-    fix overflow x
--->
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 
-<header>
-    <link rel="stylesheet" type="text/css" href="default.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-</header>
+<head>
+	<title>Chistopher Nguyen</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-<nav id="navbar">
-    <ul>
-        <li><a href="#welcome-section">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<body class="is-preload">
 
-<body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<!-- Wrapper-->
+	<div id="wrapper">
 
-    <main>
-        <section id="welcome-section">
-            <img src="src/images/me.png" alt="Portrait" id="portrait">
-            <h1>Christopher Nguyen</h1>
-            <h3>Software/ full-stack developer</h3>
-            <hr style="width: 500px;" />
-            <br /> <br />
-            <div id="about-me">
-                <p>Welcome to my page!</p>
-                <p>I am currently a Junior university student who spends most of his time learning about interesting things in programming (which is almost everything).
-                    I have been programing ever since highschool; Java being my most proficient and first language. Below are my currently working projects posted on my github. These are solely individual, but I have some collaborated projects
-                     on my there as well. If you find that these projects are interesting and are open to collaboration or are reaching out to me because of a 
-                     job/ position, feel free to contact me on my Linkedin or shoot me an email. <br /> <br /> Thanks!<br/>:)
-                </p>
-            </div>
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>Home</span></a>
+			<a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
+			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+			<a href="https://LinkedIn.com/in/chris-ngu" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
+			<a href="https://github.com/chris-ngu" class="icon brands fa-github"><span>Github</span></a>
+		</nav>
 
-        </section>
-        <hr style="width: 80%;" />
+		<!-- Main -->
+		<div id="main">
 
-        <section id="projects">
-            <h2>Projects</h2> <br />
-            <div id="project-grid">
-                <div class="project-tile"">
-                    <a href=" https://github.com/Chris-Ngu/EnterpriseSolution" target="_blank">
-                    <img src=" src/images/EnterpriseSolution.png" alt="ES">
-                    </a>
-                    <h3 class="project-title">EnterpriseSolution</h3>
-                    <p>C#</p>
-                </div>
-                <div class="project-tile">
-                    <a href="https://github.com/Chris-Ngu/EnterpriseSolution-WEB" target="_blank">
-                        <img src="src/images/EnterpriseSolution-WEB.png" alt="ES-WEB">
-                    </a>
-                    <h3 class="project-title">EnterpriseSolution-WEB</h3>
-                    <p>JavaScript</p>
-                </div>
-                <div class="project-tile">
-                    <a href="https://github.com/Chris-Ngu/Foodstagram" target="_blank">
-                        <img src="src/images/Foodstagram.png" alt="Foodstagram">
-                    </a>
-                    <h3 class="project-title">Foodstagram</h3>
-                    <p>Javascript</p>
-                </div>
-                <div class="project-tile">
-                    <a href="https://github.com/Chris-Ngu/3DRenderingEngine" target="_blank">
-                        <img src="src/images/3DRender.png" alt="3DRE">
-                    </a>
-                    <h3 class="project-title">3D-Rendering-Engine</h3>
-                    <p>C++</p>
-                </div>
-            </div>
-            <br /> <br />
-            <a href="https://github.com/Chris-Ngu?tab=repositories" class="button">More Projects!</a> <br /> <br />
-        </section>
-        <hr style="width: 80%;" />
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Christopher Nguyen</h1>
+					<p>University of Memphis 21'</p>
+					<p>Computer Science</p>
+				</header>
+				
+				<a href="#work" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>See my projects</span></span>
+					<img src="images/me.png" alt="" />
+				</a>
+			</article>
 
-        <section id="contact">
-            <h2>Contact Me!</h2>
-            <br />
-            <div id="contact-grid">
-                <div class="contact-tile">
-                    <a id="profile-link" href="https://github.com/Chris-Ngu" target="_blank">
-                        <img id="github-logo" src="src/images/github.png" alt="github image">
-                    </a>
-                    <h3>Github</h3>
-                </div>
-                <div class="contact-tile">
-                    <a id="profile-link" href="https://www.linkedin.com/in/chris-ngu/" target="_blank">
-                        <img id="linkedin-logo" src="src/images/linkedin.png" alt="linkedin image">
-                    </a>
-                    <h3>Linkedin</h3>
-                </div>
-                <div class="contact-tile">
-                    <a id="profile-link" href="mailto: chris_ngu@pm.me">
-                        <img id="email-logo" src="src/images/blue-email-box-circle-png-transparent-icon-2.png"
-                            alt="email image">
-                    </a>
-                    <h3>E-mail</h3>
-                </div>
-            </div>
-        </section>
-    </main>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>Projects</h2>
+				</header>
+				<p>
+					Pleae check out my Github for more projects! All my projects are open-source and my non-showcased projects are used for education purposes to learn frameworks
+					/APIs. 
+				</p>
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://github.com/Chris-Ngu/EnterpriseSolution" class="image fit"><img
+									src="images/pic01.png" alt=""></a>
+							<b>EnterpriseSolution</b>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://github.com/Chris-Ngu/EnterpriseSolution-WEB" class="image fit"><img
+									src="images/pic02.png" alt=""></a>
+							<b>EnterpriseSoluton-WEB</b>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="https://github.com/Chris-Ngu/3DRenderingEngine" class="image fit"><img
+									src="images/pic03.png" alt=""></a>
+							<b>3D Rendering Engine</b>
+						</div>
+					</div>
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<form action="https://formspree.io/xwkqwwka" method="POST">
+					<div>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="text" name="email" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<input type="text" name="subject" placeholder="Subject" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<input type="submit" value="Send Message" />
+							</div>
+						</div>
+					</div>
+				</form>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>Simply </li>
+				<li>Minimal</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
-<footer>
-    Created by Christopher Nguyen <br />
-    <a href="https://github.com/Chris-Ngu/Chris-Ngu.github.io" target="_blank">
-        <p>Github Repository</p>
-    </a>
-</footer>
 
 </html>
