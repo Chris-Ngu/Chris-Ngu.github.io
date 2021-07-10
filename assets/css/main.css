@@ -1355,6 +1355,7 @@ section> :last-child, article> :last-child, section:last-child, article:last-chi
 .profile-picture {
 	width: 350px;
 	height: 300px;
+	border-radius: 5%;
 }
 
 .image2 {
@@ -1645,6 +1646,10 @@ ul.actions li:first-child {
 	width: auto;
 }
 
+.box.style2 {
+	height: 430px;
+}
+
 /* Icons */
 
 .icon {
@@ -1908,6 +1913,12 @@ body>article {
 		height: 24em;
 		margin: 0;
 	}
+	.box.style1 {
+		height: 350px;
+	}
+	.box.style2 {
+		height: 400px;
+	}
 }
 
 /* Medium */
@@ -1920,6 +1931,12 @@ body>article {
 	}
 	#top .image {
 		margin: 0 auto 2em auto;
+	}
+	.box.box.style1 {
+		height: 350px;
+	}
+	.box.style2 {
+		height: 400px;
 	}
 }
 
